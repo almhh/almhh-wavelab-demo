@@ -34,6 +34,12 @@ p {
   top: 0;
 }
 
+@media (max-width: 990px) {
+  .navbar {
+    background-color: rgba(255,255,255);
+  }
+}
+
 .nav-link {
   color: #000;
 }
@@ -57,8 +63,21 @@ p {
   background-position: center;
 }
 
+@media (max-width: 990px) {
+  #header-info {
+    background-size: auto 100%;
+  }
+}
+
 .intro-text {
-  padding: 1rem 0 0 2rem;
+  padding: 0 0 0 2rem;
+  margin-top: 0;
+}
+
+@media (max-width: 990px) {
+  .intro-text {
+    font-size: 1.3rem;
+  }
 }
 
 .bold {
